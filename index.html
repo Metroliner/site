@@ -12,6 +12,18 @@
 <h2>Metroliner</h2>
 <b><p>BESPOKE WEB DESIGN &amp; DEVELOPMENT</p></b>
 
+<form method="POST" action="https://api.staticman.net/v2/entry/Metroliner/site/master">
+  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <h5 style="margin-bottom: 5px">What's your Discord username?</h5>
+  <input style="width: 15vw" name="fields[discord]" type="text"><br>
+  <h5 style="margin-bottom: 5px">What do you need?</h5>
+  <textarea style="width: 15vw" name="fields[request]"></textarea><br><br>
+  
+  <button type="submit">Send Enquiry</button>
+</form>
+
 </div>
 </div>
 </body>
