@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Sanchez');
+@import url('http://assets.strato/octicons/octicons.css');
+
+body {
+background: #d458a9; /* Old browsers */
+background: linear-gradient(to bottom,  #d458a9 0%,#05999b 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row;
+
+font-family: 'Rubik';
+
+margin: 0;
+padding: 0
+
+}
+
+.block {
+    background-color: #f0f0f0;
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: #d458a9;
+}
+
+.body {
+    margin: 5vw
+}
+
+html {font-size: 1.188em}
+
+body {
+    font-family: 'Sanchez', serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+    margin-left: 0;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 3.998em;
+}
+
+h2, h3, h4 {
+  font-family: 'Josefin Slab', serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  display: block
+}
+
+h6, h6 {
+    font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em; }
+
+h4 {font-size: 1.414em;}
+
+/* Colors */
+.pink {
+    color: #d458a9
+}
+
+.blue {
+    color: #05999b
+}
+
+.orange {
+    color: #ff6700
+}
+
+.white {
+    color: #f0f0f0
+}
+
+.black {
+    color: black
+}
+
+a {
+    text-decoration: none
+}
