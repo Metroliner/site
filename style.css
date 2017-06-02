@@ -124,3 +124,22 @@ h4 {font-size: 1.414em;}
 
 
 }
+
+input, textarea {
+    border-radius: .25vw;
+    border: none;
+    background-color: #f0f0f0;
+    color: #222222;
+    padding: 1vw;
+    filter: opacity(50%)
+}
+
+input:hover, textarea:hover {
+    filter: opacity(100%);
+    border: .25vw solid #05999b;
+}
+
+* {
+    transition-timing-function: cubic-bezier(.81,.26,.7,.7) !important;
+    transition-duration: .25s
+}
